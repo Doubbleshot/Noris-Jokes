@@ -18,7 +18,7 @@ public class JokesAdapter extends RecyclerView.Adapter<JokesAdapter.JokesViewHol
     private List<Joke> jokes;
     private Context context;
 
-    private JokesAdapter(Context context, List<Joke> value) {
+    public JokesAdapter(Context context, List<Joke> value) {
         this.context = context;
         this.jokes = value;
     }

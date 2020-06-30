@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class JokesRetrofitClient {
 
-    private static final String BASE_URL = "https//api.icndb.com/";
+    private static final String BASE_URL = "https://api.icndb.com/";
     private static JokesApi jokesApi;
 
     public static JokesApi getJokesApi() {
